@@ -1,0 +1,1 @@
+This Project creates a website with listed recipes, used for understanding the fundamental html functionality
