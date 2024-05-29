@@ -3,8 +3,9 @@ body{
     text-align: center;
 }
 
-h1{
+h1, h2, h3{
     font-family: 'Courier New', Courier, monospace;
+    color: red;
     font-weight: 400;
     font-size: 32px;
 }
@@ -12,4 +13,14 @@ h1{
 a{
     display: block;
     margin-top: 12px;
+}
+
+ul, ol{
+    width: 140px;
+    padding-right: 20px;
+    margin: 10px auto;
+}
+
+ol{
+    width: 400px;
 }
