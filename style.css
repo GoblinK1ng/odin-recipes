@@ -5,14 +5,18 @@ body{
 
 h1, h2, h3{
     font-family: 'Courier New', Courier, monospace;
-    color: red;
+    color: rgb(199, 133, 48);
     font-weight: 400;
     font-size: 32px;
+    border: 4px dotted burlywood;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 a{
     display: block;
-    margin-top: 12px;
+    margin-bottom: 2px;
+    font-size: large;
 }
 
 ul, ol{
@@ -23,4 +27,13 @@ ul, ol{
 
 ol{
     width: 400px;
+}
+
+div{
+    background-color: beige;
+    max-height: fit-content;
+    max-width: fit-content;
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin: auto;
 }
